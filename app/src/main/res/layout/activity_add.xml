@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dip"
+    tools:context=".AddActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_margin="10dip"
+                android:text="Name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_margin="10dip"
+                android:id="@+id/etName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Max Mustermann"/>
+
+            <TextView
+                android:layout_margin="10dip"
+                android:text="Klasse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:layout_margin="10dip"
+                android:id="@+id/etSchoolClass"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="3CHIF"/>
+
+            <TextView
+                android:layout_margin="10dip"
+                android:text="Geburtstag"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <DatePicker
+                android:layout_margin="10dip"
+                android:id="@+id/dpBirthday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <Button
+                android:layout_margin="10dip"
+                android:id="@+id/btAdd"
+                android:text="Hinzufügen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <Button
+                android:layout_margin="10dip"
+                android:id="@+id/btCancel"
+                android:text="Abbrechen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

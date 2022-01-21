@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:title="Hinzufügen" android:id="@+id/menuAdd" android:orderInCategory="1"/>
+        <item android:title="Suchen" android:id="@+id/menuSearch" android:orderInCategory="2"/>
+        <item android:title="Löschen" android:id="@+id/menuDelete" android:orderInCategory="3"/>
+    </group>
+</menu>
